@@ -16,10 +16,6 @@ const waifuReactions = [
 	'¿Un poco de orden por favor? \'xd\' ha sido eliminado.',
 ];
 
-client.on('ready', () => {
-	console.log('Waifu Policía está en servicio');
-});
-
 client.on('messageCreate', async (message) => {
 	if (message.author.bot) return;
 
